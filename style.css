@@ -1,0 +1,165 @@
+red{
+    background-color: red;
+}
+orange{
+    background-color: orange;
+}
+green{
+    background-color: green;
+}
+#box{
+    background: rgb(29,253,41);
+    background: radial-gradient(circle, rgba(29,253,41,1) 0%, rgb(248, 133, 26) 33%, rgba(255,0,0,1) 66%, rgb(58, 0, 0) 100%);
+    height: 800px;
+    width: 100px;
+    left: 100px;
+    border: solid black  10px;
+    float: left;
+    margin-left:85px;
+}
+#arrow{
+    height: 15px;
+    width: 120px;
+    position: fixed;
+    background-color: rgb(232, 255, 54);
+    border: solid rgb(0, 0, 0) 3px;
+}
+.classname 
+  {
+    position: relative;
+    left: 0px;
+    display: block;
+    animation: bar 0.25s ease;
+}
+
+.baganim {
+    position: relative;
+    left: 0px;
+    display: block;
+    animation: baganimation 1s ease;
+}
+.swing {
+    animation: swing ease-in-out 1s ;
+    
+    float: left;
+   
+}
+
+  
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    60% {
+        transform: rotate(-20deg);
+    }
+
+    80% {
+        transform: rotate(7deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes baganimation {
+    0% {
+    transform: rotate(0deg);
+
+    }
+
+    25% {
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: rotate(-45deg);
+    }
+    80% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes bar
+{
+  0%{
+        left: 0%;
+        bottom: 0%;
+      }
+  30% {
+    left: 100%;
+   
+  }
+  100% {
+    left: 0%;
+    bottom: 0%;
+  }
+}
+#wynik {
+    color: red;
+    background-color: black;
+    height: 200px;
+    width: 600px;
+    font-size: 150px;
+    margin-left: 100px;
+    border-bottom: solid 10px cornflowerblue;
+    border-left: solid 10px cornflowerblue;
+    border-right: solid 10px cornflowerblue;
+    text-align: center;
+}
+  #boxbox{
+    height: 200px;
+    width: 300px;
+    position:fixed;
+    bottom:300px;
+    left: 250px;
+    transform: rotate(-45deg);
+  }
+  #bagbox{
+      transform-origin: top left;
+
+  }
+#con {
+    margin-left: 400px;
+    width: 800px;
+    height: 1200px;
+    background-color: #216ec2;
+    border:solid 10px cornflowerblue;
+}
+  img{
+    float: bottom;
+  }
+
+  #max{
+    width: 100px;
+    height: 18px;
+    background-color: blue;
+    top: 403px;
+    position: fixed;
+  }
+  body{
+    background-color: white;
+  }
+#bag{
+  
+}
+#punchbutton {
+    background-color: red;
+    border: solid 10px black;
+    color: black;
+    font-family: 'Orbitron';
+    height:300px;
+    width:300px;
+    font-size:60px;
+    position:absolute;
+    bottom:100px;
+    border-radius:50% 50%;
+    font-weight: 1000;
+}
